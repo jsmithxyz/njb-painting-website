@@ -1,0 +1,10 @@
+.jumbotron {
+  height: 100vh;
+  background: transparent;
+  background-image: url("./PaintRoller.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: rgb(229, 229, 231);
+  color: #455d7a;
+  font-family: "Raleway", sans-serif;
+}
