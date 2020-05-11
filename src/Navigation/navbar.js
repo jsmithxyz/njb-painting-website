@@ -7,6 +7,7 @@ class NavBar extends Component {
     return (
       <Navbar>
         <Navbar.Brand className='brand' href='#home'>
+          <i className='fas fa-paint-roller'></i>
           NJB Painting
         </Navbar.Brand>
         <Navbar.Toggle />

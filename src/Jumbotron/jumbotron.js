@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Jumbotron, Container } from "react-bootstrap";
+import { Jumbotron, Container, Button } from "react-bootstrap";
 import "./jumbotron.css";
 
 class Jumbo extends Component {
@@ -7,13 +7,17 @@ class Jumbo extends Component {
     return (
       <Jumbotron fluid>
         <Container className='jumbo'>
-          <h1>NJB Painting</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
-            doloremque eveniet labore totam nesciunt quo accusantium commodi
-            temporibus? Vitae ab ullam asperiores ratione? Cupiditate
-            necessitatibus ut culpa eos officia quia?
+          <p className='jumbo-subtext'>
+            Family Owned and Operated,{" "}
+            <em>
+              <strong>NJB Painting</strong>
+            </em>{" "}
+            has been your professional painting experts for over 20+ years! We
+            offer interior and exterior painting services for both residential
+            and commercial clients, at fair and affordable prices, delivering
+            the highest standards.
           </p>
+          <Button className='call-button'>Call Today!</Button>
         </Container>
       </Jumbotron>
     );

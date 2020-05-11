@@ -7,4 +7,27 @@
   background-color: rgb(229, 229, 231);
   color: #455d7a;
   font-family: "Raleway", sans-serif;
+  padding-top: 200px;
+  border-bottom: solid 2px #455d7a;
+  position: relative;
+}
+
+.jumbo-subtext {
+  width: 500px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.call-button {
+  background-color: #455d7a;
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 75%;
+  left: 28%;
+  margin-top: 15px;
+}
+
+.call-button:hover {
+  background-color: rgb(197, 47, 49);
 }

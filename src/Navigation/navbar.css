@@ -1,20 +1,26 @@
 .navbar {
   height: 120px;
-  background-color: rgb(231, 229, 230);
+  background-color: rgb(229, 229, 231);
   border-bottom: solid 1px;
   border-color: #455d7a;
 }
 .navbar-brand {
   color: #455d7a !important;
-  font-family: "Raleway", sans-serif;
-  font-size: 50px;
+  font-family: "Pacifico", cursive;
+  font-size: 60px;
   margin-left: 25px;
 }
 .navbar-text {
-  font-family: "Raleway", sans-serif;
+  font-family: "Pacifico", cursive;
   margin-left: 10px;
   margin-right: 10px;
 }
+.fas.fa-paint-roller {
+  color: #455d7a;
+  margin-right: 20px;
+}
+
 a {
   color: #455d7a !important;
+  font-size: 25px;
 }
