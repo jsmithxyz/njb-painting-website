@@ -17,8 +17,8 @@ class Jumbo extends Component {
             and commercial clients, at fair and affordable prices, delivering
             the highest standards.
           </p>
-          <Button className='call-button'>Call Today!</Button>
         </Container>
+        <Button className='call-button'>Call Today!</Button>
       </Jumbotron>
     );
   }

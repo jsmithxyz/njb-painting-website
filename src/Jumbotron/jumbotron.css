@@ -1,10 +1,11 @@
 .jumbotron {
   height: 100vh;
   background: transparent;
-  background-image: url("./PaintRoller.jpg");
+  background-image: url("./PaintRoller5.jpg");
+  background-size: 100vh 100%;
   background-repeat: no-repeat;
   background-position: right;
-  background-color: rgb(229, 229, 231);
+  background-color: rgb(231, 229, 232);
   color: #455d7a;
   font-family: "Raleway", sans-serif;
   padding-top: 200px;
@@ -16,6 +17,7 @@
   width: 500px;
   text-align: center;
   font-size: 35px;
+  font-weight: thin;
 }
 
 .call-button {
@@ -24,7 +26,7 @@
   font-size: 25px;
   position: absolute;
   top: 75%;
-  left: 28%;
+  left: 28.5%;
   margin-top: 15px;
 }
 
