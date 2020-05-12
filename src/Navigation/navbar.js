@@ -5,10 +5,10 @@ import "./navbar.css";
 class NavBar extends Component {
   render() {
     return (
-      <Navbar>
+      <Navbar fixed='top'>
         <Navbar.Brand className='brand' href='#home'>
           <i className='fas fa-paint-roller'></i>
-          NJB Painting
+          NJB Painting Inc.
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className='justify-content-end'>

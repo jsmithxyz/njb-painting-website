@@ -1,0 +1,26 @@
+.builder-header {
+  font-size: 55px;
+  color: #455d7a;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  margin-top: 30px;
+}
+
+.builder-break {
+  width: 200px;
+  border: 2px solid #455d7a;
+  color: #455d7a;
+  margin-bottom: 60px;
+}
+
+.builders {
+  text-align: center;
+  height: 100vh;
+  border-bottom: solid 3px;
+  border-color: #455d7a;
+  padding-top: 50px;
+}
+
+img {
+  margin: 20px 5px 25px 5px;
+}

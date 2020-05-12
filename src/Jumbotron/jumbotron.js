@@ -5,12 +5,12 @@ import "./jumbotron.css";
 class Jumbo extends Component {
   render() {
     return (
-      <Jumbotron fluid>
+      <Jumbotron>
         <Container className='jumbo'>
           <p className='jumbo-subtext'>
             Family Owned and Operated,{" "}
             <em>
-              <strong>NJB Painting</strong>
+              <strong>NJB Painting Inc.</strong>
             </em>{" "}
             has been your professional painting experts for over 20+ years! We
             offer interior and exterior painting services for both residential
