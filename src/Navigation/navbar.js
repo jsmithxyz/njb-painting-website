@@ -5,7 +5,7 @@ import "./navbar.css";
 class NavBar extends Component {
   render() {
     return (
-      <Navbar fixed='top'>
+      <Navbar id='navigation' fixed='top'>
         <Navbar.Brand className='brand' href='#home'>
           <i className='fas fa-paint-roller'></i>
           NJB Painting Inc.
@@ -19,9 +19,9 @@ class NavBar extends Component {
             <a href='#about'>Services</a>
           </Navbar.Text>
           <Navbar.Text>
-            <a href='#about'>Builders</a>
+            <a href='#about'>Clients</a>
           </Navbar.Text>
-          <Navbar.Text>
+          <Navbar.Text id='last-child'>
             <a href='#about'>Contact</a>
           </Navbar.Text>
         </Navbar.Collapse>

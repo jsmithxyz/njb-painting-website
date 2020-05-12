@@ -1,27 +1,33 @@
 .navbar {
-  height: 120px;
-  background-color: rgb(231, 229, 232);
+  height: 170px;
+  background-color: #455d7a;
   border-bottom: solid 3px;
-  border-color: #455d7a;
+  border-color: rgb(197, 47, 49);
   padding-bottom: 10px;
 }
 .navbar-brand {
-  color: #455d7a !important;
-  font-family: "Pacifico", cursive;
+  color: rgb(253, 253, 253) !important;
+  font-family: "Oswald", sans-serif;
   font-size: 60px;
   margin-left: 25px;
 }
 .navbar-text {
-  font-family: "Pacifico", cursive;
+  font-family: "Oswald", sans-serif;
   margin-left: 10px;
   margin-right: 10px;
 }
 .fas.fa-paint-roller {
-  color: #455d7a;
+  color: rgb(253, 253, 253) !important;
   margin-right: 20px;
 }
 
 a {
-  color: #455d7a !important;
+  color: rgb(253, 253, 253) !important;
   font-size: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#last-child {
+  margin-right: 100px;
 }

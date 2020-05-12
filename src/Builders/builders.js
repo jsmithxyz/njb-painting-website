@@ -6,7 +6,7 @@ class Builders extends Component {
   render() {
     return (
       <div className='builders'>
-        <p className='builder-header'>Our Builders</p>
+        <p className='builder-header'>Our Clients</p>
         <hr className='builder-break'></hr>
         <Row>
           <Col>

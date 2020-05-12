@@ -6,7 +6,7 @@ class Jumbo extends Component {
   render() {
     return (
       <Jumbotron>
-        <Container className='jumbo'>
+        <div className='jumbo'>
           <p className='jumbo-subtext'>
             Family Owned and Operated,{" "}
             <em>
@@ -17,11 +17,24 @@ class Jumbo extends Component {
             and commercial clients, at fair and affordable prices, delivering
             the highest standards.
           </p>
-        </Container>
-        <Button className='call-button'>Call Today!</Button>
+          <Button className='call-button'>Call Today!</Button>
+        </div>
       </Jumbotron>
     );
   }
 }
 
 export default Jumbo;
+
+// <p className='jumbo-subtext'>
+//             Family Owned and Operated,{" "}
+//             <em>
+//               <strong>NJB Painting Inc.</strong>
+//             </em>{" "}
+//             has been your professional painting experts for over 20+ years! We
+//             offer interior and exterior painting services for both residential
+//             and commercial clients, at fair and affordable prices, delivering
+//             the highest standards.
+//           </p>
+{
+}

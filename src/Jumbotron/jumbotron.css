@@ -1,34 +1,36 @@
 .jumbotron {
-  height: 100vh;
+  height: 800px;
+  width: 100%;
   background: transparent;
-  background-image: url("./PaintRoller5.jpg");
-  background-size: 100vh 100%;
+  background-image: url("./PaintTools.jpg");
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: right;
-  background-color: rgb(231, 229, 232);
+  background-color: rgb(253, 253, 253);
   color: #455d7a;
-  font-family: "Raleway", sans-serif;
-  padding-top: 200px;
-  border-bottom: solid 2px #455d7a;
-  position: relative;
-  margin-top: 50px;
+  font-family: "Lato", sans-serif;
+  padding-top: 125px;
+  border-bottom: solid 3px rgb(197, 47, 49);
+  margin-top: 170px;
 }
 
 .jumbo-subtext {
-  width: 500px;
-  text-align: center;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
   font-size: 35px;
-  font-weight: thin;
+  font-weight: normal;
+  text-align: center;
 }
 
 .call-button {
   background-color: #455d7a;
   color: white;
   font-size: 25px;
-  position: absolute;
-  bottom: 12%;
-  left: 28.5%;
-  margin-top: 15px;
+  margin-left: 790px;
+  font-family: "Lato", sans-serif;
+  border-color: rgb(197, 47, 49);
 }
 
 .call-button:hover {
