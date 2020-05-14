@@ -24,3 +24,13 @@
 img {
   margin: 20px 5px 25px 5px;
 }
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-bottom: 75px solid #455d7a;
+  margin-right: auto;
+  margin-left: auto;
+}

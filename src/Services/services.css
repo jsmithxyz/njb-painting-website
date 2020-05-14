@@ -3,10 +3,11 @@
   text-align: center;
   height: 100vh;
   border-bottom: solid 3px;
-  border-color: rgb(197, 47, 49);
-  padding-top: 75px;
+  border-color: #455d7a;
+  padding-top: 25px;
   padding-left: 200px;
   padding-right: 200px;
+  padding-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
   font-family: "Lato", sans-serif;
@@ -17,7 +18,7 @@
   color: #455d7a;
   font-weight: bold;
   font-family: "Oswald", sans-serif;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .services-break {
@@ -33,4 +34,9 @@
 
 img {
   color: #455d7a !important;
+}
+
+.description {
+  font-size: 20px;
+  line-height: 175%;
 }

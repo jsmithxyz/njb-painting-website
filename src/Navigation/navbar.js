@@ -5,7 +5,7 @@ import "./navbar.css";
 class NavBar extends Component {
   render() {
     return (
-      <Navbar id='navigation' fixed='top'>
+      <Navbar id='navigation'>
         <Navbar.Brand className='brand' href='#home'>
           <i className='fas fa-paint-roller'></i>
           NJB Painting Inc.
