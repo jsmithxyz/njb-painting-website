@@ -5,6 +5,7 @@ import NavBar from "../src/Navigation/navbar";
 import Jumbo from "../src/Jumbotron/jumbotron";
 import Builders from "../src/Builders/builders";
 import Services from "../src/Services/services";
+import Contact from "../src/Contact/contact";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Jumbo />
       <Services />
       <Builders />
+      <Contact />
     </Container>
   );
 }
