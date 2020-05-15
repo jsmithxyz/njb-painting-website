@@ -5,18 +5,13 @@ import "./services.css";
 class Services extends Component {
   render() {
     return (
-      <div className='services'>
+      <div className='row-services'>
         <p className='services-header'>Our Services</p>
         <hr className='services-break'></hr>
         <Row>
           <Col className='service-box'>
-            <img
-              src='https://img.icons8.com/dusk/64/000000/paint.png'
-              alt='Painting Services'
-              height='75'
-              width='75'
-            />
-            <h3>Painting Services</h3>
+            <img src='paintbucket.svg' alt='Painting Services' />
+            <h3 className='desc-header'>Painting Services</h3>
             <p className='description'>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
               possimus fuga necessitatibus obcaecati. Odit eum consequatur dolor
@@ -31,7 +26,7 @@ class Services extends Component {
               height='75'
               width='75'
             />
-            <h3>Clients</h3>
+            <h3 className='desc-header'>Clients</h3>
             <p className='description'>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
               possimus fuga necessitatibus obcaecati. Odit eum consequatur dolor
@@ -48,7 +43,7 @@ class Services extends Component {
               height='75'
               width='75'
             />
-            <h3>Locations Served</h3>
+            <h3 className='desc-header'>Locations Served</h3>
             <p className='description'>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
               possimus fuga necessitatibus obcaecati. Odit eum consequatur dolor
@@ -63,7 +58,7 @@ class Services extends Component {
               height='75'
               width='75'
             />
-            <h3>Affordable Prices</h3>
+            <h3 className='desc-header'>Affordable Prices</h3>
             <p className='description'>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
               possimus fuga necessitatibus obcaecati. Odit eum consequatur dolor

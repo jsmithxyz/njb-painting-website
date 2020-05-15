@@ -13,10 +13,7 @@ class NavBar extends Component {
         <Navbar.Toggle />
         <Navbar.Collapse className='justify-content-end'>
           <Navbar.Text>
-            <a href='#about'>About</a>
-          </Navbar.Text>
-          <Navbar.Text>
-            <a href='#about'>Services</a>
+            <a href='/services'>Services</a>
           </Navbar.Text>
           <Navbar.Text>
             <a href='#about'>Clients</a>

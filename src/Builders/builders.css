@@ -1,23 +1,25 @@
 .builder-header {
   font-size: 55px;
-  color: #455d7a;
-  font-weight: bold;
+  color: #083358;
   font-family: "Oswald", sans-serif;
   margin-top: 30px;
 }
 
 .builder-break {
   width: 200px;
-  border: 2px solid #455d7a;
-  color: #455d7a;
+  border: 2px solid #083358;
+  color: #083358;
   margin-bottom: 60px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .builders {
   text-align: center;
   height: 100vh;
+  background-color: rgb(252, 252, 252);
   border-bottom: solid 3px;
-  border-color: rgb(197, 47, 49);
+  border-color: #fc3c3c;
   padding-top: 50px;
 }
 

@@ -1,9 +1,8 @@
 .navbar {
   height: fit-content;
   background-color: transparent;
-  border-bottom: solid 1px rgb(197, 47, 49);
+  border-bottom: solid 1px #fc3c3c;
   padding-top: 30px;
-
   padding-bottom: 30px;
 }
 .navbar-brand {
