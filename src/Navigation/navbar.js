@@ -5,7 +5,7 @@ import "./navbar.css";
 class NavBar extends Component {
   render() {
     return (
-      <Navbar id='navigation'>
+      <Navbar collapseOnSelect expand='lg' id='navigation'>
         <Navbar.Brand className='brand' href='#home'>
           <i className='fas fa-paint-roller'></i>
           NJB Painting Inc.

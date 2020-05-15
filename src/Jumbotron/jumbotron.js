@@ -1,24 +1,30 @@
 import React, { Component } from "react";
-import { Jumbotron, Button } from "react-bootstrap";
+import { Jumbotron, Row, Col } from "react-bootstrap";
 import "./jumbotron.css";
+import NavBar from "../Navigation/navbar";
 
 class Jumbo extends Component {
   render() {
     return (
       <Jumbotron>
-        <div className='jumbo'>
-          <p className='jumbo-subtext'>
-            Family Owned and Operated,{" "}
-            <em>
-              <strong>NJB Painting Inc.</strong>
-            </em>{" "}
-            has been your professional painting experts for over 20+ years! We
-            offer interior and exterior painting services for both residential
-            and commercial clients, at fair and affordable prices, delivering
-            the highest standards.
-          </p>
-          <Button className='call-button'>Call Today!</Button>
-        </div>
+        <Row>
+          <Col>
+            <NavBar />
+            <div className='jumbo'>
+              <p className='jumbo-subtext'>
+                Family Owned and Operated, <br />
+                <em>
+                  <strong>NJB Painting Inc.</strong>
+                </em>{" "}
+                <br />
+                has been your professional painting experts for over 20+ years!
+                <a class='btn' href='#'>
+                  Call Today!
+                </a>
+              </p>
+            </div>
+          </Col>
+        </Row>
       </Jumbotron>
     );
   }

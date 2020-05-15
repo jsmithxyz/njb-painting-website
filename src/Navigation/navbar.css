@@ -1,15 +1,15 @@
 .navbar {
-  height: 170px;
-  background-color: #455d7a;
-  border-bottom: solid 3px;
-  border-color: rgb(197, 47, 49);
-  padding-bottom: 10px;
+  height: fit-content;
+  background-color: transparent;
+  border-bottom: solid 1px rgb(197, 47, 49);
+  padding-top: 30px;
+
+  padding-bottom: 30px;
 }
 .navbar-brand {
-  color: rgb(253, 253, 253) !important;
-  font-family: "Oswald", sans-serif;
-  font-size: 60px;
-  margin-left: 25px;
+  color: #083358 !important;
+  font-family: "Pacifico", cursive;
+  font-size: 200%;
 }
 .navbar-text {
   font-family: "Oswald", sans-serif;
@@ -17,17 +17,11 @@
   margin-right: 10px;
 }
 .fas.fa-paint-roller {
-  color: rgb(253, 253, 253) !important;
+  color: #083358 !important;
   margin-right: 20px;
 }
 
 a {
-  color: rgb(253, 253, 253) !important;
+  color: #083358 !important;
   font-size: 25px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-#last-child {
-  margin-right: 100px;
 }
