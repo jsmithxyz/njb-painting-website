@@ -49,8 +49,8 @@ class Contact extends Component {
     return (
       <div className='contact'>
         <Row>
-          <Col>
-            <h1 className='contact-header'>Get In Touch!</h1>
+          <Col className='contact-column'>
+            <h1 className='contact-header'>Send Us a Message!</h1>
             <hr className='contact-break'></hr>
             <form
               id='contact-form'
@@ -93,7 +93,32 @@ class Contact extends Component {
               </button>
             </form>
           </Col>
-          <Col></Col>
+          <Col>
+            <h1 className='contact-header' id='contact-header-right'>
+              Contact Us!
+            </h1>
+            <h3 className='contact-address'>
+              NJB Painting INC
+              <br />
+              PO Box 112
+              <br />
+              Sellersville, PA 18969
+            </h3>
+            <h3 className='contact-info'>
+              Nathan Bailey - <em>President</em>
+              <br />
+              Billie Machain - <em>Sales/Operations Manager</em>
+              <br />
+              Matt Bailey - <em>Service Manager</em>
+            </h3>
+            <h3 className='contact-email'>
+              <a href='mailto:njbpainting@comcast.net'>
+                njbpainting@comcast.net
+              </a>
+              <br />
+              267-410-7284
+            </h3>
+          </Col>
         </Row>
       </div>
     );
