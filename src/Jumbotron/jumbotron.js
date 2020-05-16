@@ -7,13 +7,13 @@ class Jumbo extends Component {
   render() {
     return (
       <Jumbotron>
+        <NavBar />
         <Row>
           <Col>
-            <NavBar />
             <div className='jumbo'>
               <p className='jumbo-subtext'>
                 Family Owned and Operated, <br />
-                <strong>NJB Painting Inc.</strong>
+                NJB Painting Inc.
                 <br />
                 has been your professional painting experts for over 20+ years!
                 <a class='btn' href='#'>

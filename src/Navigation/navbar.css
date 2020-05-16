@@ -4,11 +4,14 @@
   border-bottom: solid 1px #fc3c3c;
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .navbar-brand {
   color: #083358 !important;
   font-family: "Pacifico", cursive;
   font-size: 200%;
+  margin-left: 5%;
 }
 .navbar-text {
   font-family: "Oswald", sans-serif;
@@ -23,4 +26,8 @@
 a {
   color: #083358 !important;
   font-size: 25px;
+}
+
+.justify-content-end {
+  margin-right: 5%;
 }
