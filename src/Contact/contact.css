@@ -1,4 +1,46 @@
 .contact {
   height: 100vh;
-  background-color: #455d7a;
+  background-color: #083358;
+  padding-top: 80px;
+}
+
+.btn-submit {
+  display: block;
+  width: 100px;
+  margin-right: auto;
+  margin-top: 5%;
+  background-color: #fff;
+  color: #083358 !important;
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  border-color: #fc3c3c;
+  border-radius: 20px;
+  transition: background-color 0.4s, border 0.4s, color 0.4s;
+}
+
+.btn-submit:hover {
+  background-color: #fc3c3c;
+  color: #fff !important;
+  transition: background-color 0.4s, border 0.4s, color 0.4s;
+}
+
+label {
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+}
+
+.contact-header {
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.contact-break {
+  background-color: #fff;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
 }

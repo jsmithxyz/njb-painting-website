@@ -16,11 +16,12 @@
 
 .builders {
   text-align: center;
-  height: 100vh;
+  height: fit-content;
   background-color: rgb(252, 252, 252);
   border-bottom: solid 3px;
   border-color: #fc3c3c;
   padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 img {
