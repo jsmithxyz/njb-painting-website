@@ -29,11 +29,11 @@ class Contact extends Component {
     event.preventDefault();
     axios({
       method: "POST",
-      url: "http://localhost:3002/send",
+      url: "http://localhost:3001/send",
       data: this.state,
     }).then((response) => {
-      if (response.data.status === "success") {
-        alert("Message Sent.");
+      if (response.data.message === "success") {
+        console.log("Message Sent.");
         this.resetForm();
       } else if (response.data.status === "fail") {
         alert("Message failed to send.");

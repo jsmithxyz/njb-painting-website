@@ -11,7 +11,7 @@ class Builders extends Component {
         <Row>
           <Col>
             <img
-              src={require("../Builders/BuilderImages/Traditions.png")}
+              src={require("./BuilderImages/Traditions.png")}
               alt='W.B Homes'
               height='275'
               width='275'
@@ -21,7 +21,7 @@ class Builders extends Component {
         <Row>
           <Col>
             <Image
-              src={require("../Builders/BuilderImages/TollBrothers.png")}
+              src={require("./BuilderImages/TollBrothers.png")}
               alt='Toll Brothers'
               height='275'
               width='275'
@@ -29,7 +29,7 @@ class Builders extends Component {
           </Col>
           <Col>
             <img
-              src={require("../Builders/BuilderImages/MeyerHome.png")}
+              src={require("./BuilderImages/MeyerHome.png")}
               alt='Meyer Home'
               height='275'
               width='275'
@@ -37,7 +37,7 @@ class Builders extends Component {
           </Col>
           <Col>
             <img
-              src={require("../Builders/BuilderImages/SalLapio.png")}
+              src={require("./BuilderImages/SalLapio.png")}
               alt='K Hovnanian'
               height='275'
               width='275'
@@ -47,7 +47,7 @@ class Builders extends Component {
         <Row>
           <Col>
             <img
-              src={require("../Builders/BuilderImages/Pulte.png")}
+              src={require("./BuilderImages/Pulte.png")}
               alt='Lennar'
               height='275'
               width='275'
@@ -55,7 +55,7 @@ class Builders extends Component {
           </Col>
           <Col>
             <img
-              src={require("../Builders/BuilderImages/JPOrleans.png")}
+              src={require("./BuilderImages/JPOrleans.png")}
               alt='Sal Lapio'
               height='275'
               width='275'
@@ -64,7 +64,7 @@ class Builders extends Component {
 
           <Col>
             <img
-              src={require("../Builders/BuilderImages/Lennar.png")}
+              src={require("./BuilderImages/Lennar.png")}
               alt='Traditions of America'
               height='275'
               width='275'
@@ -74,7 +74,7 @@ class Builders extends Component {
         <Row>
           <Col>
             <img
-              src={require("../Builders/BuilderImages/KHovnanian.png")}
+              src={require("./BuilderImages/KHovnanian.png")}
               alt='County Builders Inc.'
               height='275'
               width='275'
@@ -82,7 +82,7 @@ class Builders extends Component {
           </Col>
           <Col>
             <img
-              src={require("../Builders/BuilderImages/WBHomes.png")}
+              src={require("./BuilderImages/WBHomes.png")}
               alt='JP Orleans'
               height='275'
               width='275'
@@ -90,7 +90,7 @@ class Builders extends Component {
           </Col>
           <Col>
             <img
-              src={require("../Builders/BuilderImages/CountyBuilders.png")}
+              src={require("./BuilderImages/CountyBuilders.png")}
               alt='Pulte Homes'
               height='275'
               width='275'

@@ -5,7 +5,7 @@ class Footer extends Component {
   render() {
     return (
       <div className='footer'>
-        <Navbar color='dark' dark>
+        <Navbar>
           <Container>
             <NavbarBrand>Footer</NavbarBrand>
           </Container>
