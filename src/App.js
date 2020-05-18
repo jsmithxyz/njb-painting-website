@@ -5,6 +5,7 @@ import Jumbo from "../src/Jumbotron/jumbotron";
 import Builders from "../src/Builders/builders";
 import Services from "../src/Services/services";
 import Contact from "../src/Contact/contact";
+import Footer from "../src/Footer/footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Services />
       <Builders />
       <Contact />
+      <Footer />
     </Container>
   );
 }
