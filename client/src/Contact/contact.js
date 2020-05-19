@@ -29,7 +29,7 @@ class Contact extends Component {
     event.preventDefault();
     axios({
       method: "POST",
-      url: "http://localhost:3001/send",
+      url: "https://dry-chamber-20638.herokuapp.com/send",
       data: this.state,
     }).then((response) => {
       if (response.data.message === "success") {
