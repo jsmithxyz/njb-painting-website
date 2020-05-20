@@ -10,16 +10,6 @@ class Builders extends Component {
         <hr className='builder-break'></hr>
         <Row>
           <Col>
-            <img
-              src={require("./BuilderImages/Traditions.png")}
-              alt='W.B Homes'
-              height='275'
-              width='275'
-            />
-          </Col>
-        </Row>
-        <Row>
-          <Col>
             <Image
               src={require("./BuilderImages/TollBrothers.png")}
               alt='Toll Brothers'
@@ -29,8 +19,8 @@ class Builders extends Component {
           </Col>
           <Col>
             <img
-              src={require("./BuilderImages/MeyerHome.png")}
-              alt='Meyer Home'
+              src={require("./BuilderImages/Traditions.png")}
+              alt='W.B Homes'
               height='275'
               width='275'
             />

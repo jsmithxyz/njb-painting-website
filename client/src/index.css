@@ -5,11 +5,7 @@
 }
 
 html {
-  background-color: #fff;
-  color: #455d7a;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-size: 20px;
+  background-color: rgb(252, 252, 252);
   text-rendering: optimizeLegibility;
 }
 

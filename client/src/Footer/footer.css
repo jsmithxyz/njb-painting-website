@@ -1,3 +1,8 @@
 #footer-text {
   font-size: 15px !important;
 }
+
+.footer {
+  margin-top: 5px;
+  overflow: hidden;
+}
