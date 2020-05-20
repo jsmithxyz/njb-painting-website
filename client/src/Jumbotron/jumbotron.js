@@ -16,7 +16,7 @@ class Jumbo extends Component {
                 NJB Painting Inc.
                 <br />
                 has been your professional painting experts for over 20+ years!
-                <a className='btn' href='#'>
+                <a className='btn' href='tel:5702941517'>
                   Call Today!
                 </a>
               </p>

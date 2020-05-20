@@ -5,7 +5,7 @@ import "./services.css";
 class Services extends Component {
   render() {
     return (
-      <div className='row-services'>
+      <div className='row-services' id='services'>
         <p className='services-header'>Our Services</p>
         <hr className='services-break'></hr>
         <Row>

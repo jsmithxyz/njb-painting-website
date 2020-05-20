@@ -47,7 +47,7 @@ class Contact extends Component {
 
   render() {
     return (
-      <div className='contact'>
+      <div className='contact' id='contact'>
         <Row>
           <Col className='contact-column'>
             <h1 className='contact-header'>Send Us a Message!</h1>
@@ -116,7 +116,7 @@ class Contact extends Component {
                 njbpainting@comcast.net
               </a>
               <br />
-              267-410-7284
+              <a href='tel:5702941517'>267-410-7284</a>
             </h3>
           </Col>
         </Row>

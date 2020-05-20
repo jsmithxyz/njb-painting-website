@@ -5,7 +5,7 @@ import "./builders.css";
 class Builders extends Component {
   render() {
     return (
-      <div className='builders'>
+      <div className='builders' id='clients'>
         <p className='builder-header'>Our Clients</p>
         <hr className='builder-break'></hr>
         <Row>
