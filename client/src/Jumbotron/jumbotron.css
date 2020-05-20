@@ -21,7 +21,7 @@
 
 .jumbo-subtext {
   position: relative;
-  left: -5%;
+  left: 0%;
   width: 60%;
   text-align: center;
   line-height: 180%;
@@ -42,7 +42,7 @@
   margin-top: 2%;
   background-color: #fff;
   color: #083358 !important;
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   border-color: #fc3c3c;
