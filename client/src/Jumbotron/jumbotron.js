@@ -13,7 +13,7 @@ class Jumbo extends Component {
             <div className='jumbo'>
               <p className='jumbo-subtext'>
                 Family Owned and Operated, <br />
-                NJB Painting Inc.
+                <mark>NJB Painting Inc.</mark>
                 <br />
                 has been your professional painting experts for over 20+ years!
                 <a className='btn' href='tel:5702941517'>

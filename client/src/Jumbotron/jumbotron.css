@@ -22,8 +22,8 @@
   left: -5%;
   width: 60%;
   text-align: center;
-  line-height: 200%;
-  font-size: 200%;
+  line-height: 180%;
+  font-size: 180%;
   font-weight: 300;
   font-family: "Oswald", sans-serif;
   color: #083358;
@@ -36,7 +36,7 @@
   width: fit-content;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 5%;
+  margin-top: 2%;
   background-color: #fff;
   color: #083358 !important;
   font-size: 25px;
@@ -51,4 +51,9 @@
   background-color: #fc3c3c;
   color: #fff !important;
   transition: background-color 0.4s, border 0.4s, color 0.4s;
+}
+
+mark {
+  color: #fc3c3c !important;
+  background-color: rgb(253, 253, 253);
 }
