@@ -21,8 +21,8 @@
 
 .jumbo-subtext {
   position: relative;
-  left: 0%;
-  width: 60%;
+  left: 7%;
+  width: 50%;
   text-align: center;
   line-height: 180%;
   font-size: 210%;
@@ -59,4 +59,19 @@
 mark {
   color: #fc3c3c !important;
   background-color: rgb(253, 253, 253);
+}
+
+@media (max-device-width: 700px) {
+  .jumbo-subtext {
+    font-size: 180%;
+    left: 15%;
+  }
+}
+
+@media (max-device-width: 545px) {
+  .jumbo-subtext {
+    font-size: 140%;
+    left: 15%;
+    margin-top: 20%;
+  }
 }

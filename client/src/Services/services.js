@@ -6,7 +6,7 @@ class Services extends Component {
   render() {
     return (
       <div className='row-services' id='services'>
-        <p className='services-header'>Our Services</p>
+        <p className='services-header wow animate__zoomIn'>Our Services</p>
         <hr className='services-break'></hr>
         <Row>
           <Col className='service-box'>
