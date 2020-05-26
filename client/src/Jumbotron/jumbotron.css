@@ -75,3 +75,22 @@ mark {
     margin-top: 20%;
   }
 }
+
+@media (max-device-width: 400px) {
+  .jumbo-subtext {
+    font-size: 125%;
+    left: 12%;
+    margin-top: 25%;
+    width: 65%;
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 15px;
+  }
+
+  .navbar-toggler {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
