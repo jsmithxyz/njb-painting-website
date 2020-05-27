@@ -43,3 +43,27 @@
 .justify-content-end {
   margin-right: 5%;
 }
+
+@media (max-device-width: 545px) {
+  .navbar {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .navbar-brand {
+    font-size: 180% !important;
+    margin-left: 5%;
+  }
+}
+
+@media (max-device-width: 400px) {
+  .navbar {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .navbar-brand {
+    font-size: 180% !important;
+    margin-left: 5%;
+  }
+}
