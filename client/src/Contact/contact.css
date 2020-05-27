@@ -114,17 +114,21 @@ a:hover {
 
   .contact-info {
     text-align: center;
+    font-size: 18px;
   }
 
   .contact-email {
     text-align: center;
+    font-size: 18px;
   }
 
   #contact-header-right {
     text-align: center;
+    margin-top: 40px;
   }
 
   .contact-address {
     text-align: center;
+    font-size: 18px;
   }
 }

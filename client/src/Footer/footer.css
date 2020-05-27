@@ -2,7 +2,18 @@
   font-size: 15px !important;
 }
 
+#footer-text2 {
+  font-size: 15px !important;
+}
+
 .footer {
   margin-top: 5px;
   overflow: hidden;
+}
+
+@media (max-device-width: 545px) {
+  #footer-text {
+    display: block;
+    font-size: 10px !important;
+  }
 }

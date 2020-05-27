@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Row, Col, Image } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import "./builders.css";
 
 class Builders extends Component {
@@ -10,7 +10,8 @@ class Builders extends Component {
         <hr className='builder-break'></hr>
         <Row>
           <Col>
-            <Image
+            <img
+              className='builder-image'
               src={require("./BuilderImages/TollBrothers.png")}
               alt='Toll Brothers'
               height='275'
@@ -19,6 +20,7 @@ class Builders extends Component {
           </Col>
           <Col>
             <img
+              className='builder-image'
               src={require("./BuilderImages/Traditions.png")}
               alt='W.B Homes'
               height='275'
@@ -27,6 +29,7 @@ class Builders extends Component {
           </Col>
           <Col>
             <img
+              className='builder-image'
               src={require("./BuilderImages/SalLapio.png")}
               alt='K Hovnanian'
               height='275'
@@ -37,6 +40,7 @@ class Builders extends Component {
         <Row>
           <Col>
             <img
+              className='builder-image'
               src={require("./BuilderImages/Pulte.png")}
               alt='Lennar'
               height='275'
@@ -45,6 +49,7 @@ class Builders extends Component {
           </Col>
           <Col>
             <img
+              className='builder-image'
               src={require("./BuilderImages/JPOrleans.png")}
               alt='Sal Lapio'
               height='275'
@@ -54,6 +59,7 @@ class Builders extends Component {
 
           <Col>
             <img
+              className='builder-image'
               src={require("./BuilderImages/Lennar.png")}
               alt='Traditions of America'
               height='275'
@@ -64,6 +70,7 @@ class Builders extends Component {
         <Row>
           <Col>
             <img
+              className='builder-image'
               src={require("./BuilderImages/KHovnanian.png")}
               alt='County Builders Inc.'
               height='275'
@@ -72,6 +79,7 @@ class Builders extends Component {
           </Col>
           <Col>
             <img
+              className='builder-image'
               src={require("./BuilderImages/WBHomes.png")}
               alt='JP Orleans'
               height='275'
@@ -80,6 +88,7 @@ class Builders extends Component {
           </Col>
           <Col>
             <img
+              className='builder-image'
               src={require("./BuilderImages/CountyBuilders.png")}
               alt='Pulte Homes'
               height='275'

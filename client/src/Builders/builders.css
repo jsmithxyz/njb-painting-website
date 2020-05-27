@@ -28,9 +28,9 @@ img {
   margin: 20px 5px 25px 5px;
 }
 
-@media (max-device-width: 700px) {
-  img {
-    width: 150px;
-    height: 150px;
+@media (max-device-width: 545px) {
+  .builder-image {
+    height: 120px;
+    width: 120px;
   }
 }
