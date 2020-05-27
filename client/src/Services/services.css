@@ -17,7 +17,6 @@
 
 .services-header {
   font-size: 55px;
-
   font-weight: bold;
   font-family: "Oswald", sans-serif;
   font-weight: 500;
@@ -52,10 +51,3 @@ hr {
 .desc-header {
   font-family: "Oswald", sans-serif;
 }
-
-/* @media (max-device-width: 700px) {
-  .jumbo-subtext {
-    font-size: 180%;
-    left: 15%;
-  }
-} */

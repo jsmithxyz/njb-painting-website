@@ -93,7 +93,7 @@ class Contact extends Component {
               </button>
             </form>
           </Col>
-          <Col>
+          <Col className='contact-info-column'>
             <h1 className='contact-header' id='contact-header-right'>
               Contact Us!
             </h1>
