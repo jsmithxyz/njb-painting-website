@@ -9,9 +9,8 @@ class Footer extends Component {
         <Navbar>
           <Container>
             <NavbarBrand id='footer-text'>
-              <span>&copy;</span>2020 NJB Painting Inc. All Rights Reserved
-            </NavbarBrand>
-            <NavbarBrand id='footer-text2'>
+              <span>&copy;</span>2020 NJB Painting Inc. All Rights Reserved.
+              <br />
               Website designed by{" "}
               <a
                 href='https://www.jsmithxyz.com/'
