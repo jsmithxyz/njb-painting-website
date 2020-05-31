@@ -2,6 +2,9 @@
   height: fit-content;
   background-color: #083358;
   padding-top: 110px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
   overflow: auto;
 }
 
