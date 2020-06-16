@@ -47,6 +47,7 @@
   font-weight: 300;
   border-color: #fc3c3c;
   border-radius: 200px;
+  border: 2px solid #fc3c3c;
   transition: background-color 0.4s, border 0.4s, color 0.4s;
 }
 

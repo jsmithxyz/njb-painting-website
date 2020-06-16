@@ -14,12 +14,12 @@ class NavBar extends Component {
         <Navbar.Toggle />
         <Navbar.Collapse className='justify-content-end'>
           <Navbar.Text>
-            <Link className='nav-link' to='services' smooth duration='1000'>
+            <Link className='nav-link' to='services' duration='1000' smooth>
               Services
             </Link>
           </Navbar.Text>
           <Navbar.Text>
-            <Link className='nav-link' to='clients' smooth duration='1000'>
+            <Link className='nav-link' to='clients' duration='1000' smooth>
               Clients
             </Link>
           </Navbar.Text>
