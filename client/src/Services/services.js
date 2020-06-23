@@ -18,10 +18,10 @@ class Services extends Component {
             />
             <h3 className='desc-header'>Painting Services</h3>
             <p className='description'>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-              possimus fuga necessitatibus obcaecati. Odit eum consequatur dolor
-              possimus enim aperiam voluptatem, ipsum sequi repellendus quae
-              reprehenderit vel perspiciatis impedit quas.
+              Skilled and professional contractors that help you achieve
+              great-looking interiors and complete your painting tasks within
+              your estimated time. Our professionals know how to treat people
+              and properties with respect.
             </p>
           </Col>
           <Col className='service-box'>
@@ -33,10 +33,9 @@ class Services extends Component {
             />
             <h3 className='desc-header'>Clients</h3>
             <p className='description'>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-              possimus fuga necessitatibus obcaecati. Odit eum consequatur dolor
-              possimus enim aperiam voluptatem, ipsum sequi repellendus quae
-              reprehenderit vel perspiciatis impedit quas.
+              NJB Painting Inc. offers top-quality interior and exterior
+              painting and staining services, to both residential and commercial
+              clients.
             </p>
           </Col>
         </Row>
@@ -50,10 +49,8 @@ class Services extends Component {
             />
             <h3 className='desc-header'>Locations Served</h3>
             <p className='description'>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-              possimus fuga necessitatibus obcaecati. Odit eum consequatur dolor
-              possimus enim aperiam voluptatem, ipsum sequi repellendus quae
-              reprehenderit vel perspiciatis impedit quas.
+              Flexible scheduling and mobile services that have served clients
+              in Pennsylvania, New Jersey, Delaware, and beyond.
             </p>
           </Col>
           <Col className='service-box'>
@@ -65,10 +62,8 @@ class Services extends Component {
             />
             <h3 className='desc-header'>Affordable Prices</h3>
             <p className='description'>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-              possimus fuga necessitatibus obcaecati. Odit eum consequatur dolor
-              possimus enim aperiam voluptatem, ipsum sequi repellendus quae
-              reprehenderit vel perspiciatis impedit quas.
+              Please contact us and we will be happy to consult with you and
+              provide detailed bids and estimates to accommodate your budget.
             </p>
           </Col>
         </Row>
