@@ -34,8 +34,8 @@ class Services extends Component {
             <h3 className='desc-header'>Clients</h3>
             <p className='description'>
               NJB Painting Inc. offers top-quality interior and exterior
-              painting and staining services, to both residential and commercial
-              clients.
+              painting and staining services, specializing in new home
+              construction and recently developed apartment buildings.
             </p>
           </Col>
         </Row>
