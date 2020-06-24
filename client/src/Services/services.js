@@ -18,10 +18,10 @@ class Services extends Component {
             />
             <h3 className='desc-header'>Painting Services</h3>
             <p className='description'>
-              Skilled and professional contractors that help you achieve
+              Skilled and professional contractors that specialize in new home
+              construction and apartment buildings, helping you achieve
               great-looking interiors and complete your painting tasks within
-              your estimated time. Our professionals know how to treat people
-              and properties with respect.
+              your estimated time.
             </p>
           </Col>
           <Col className='service-box'>
@@ -34,8 +34,8 @@ class Services extends Component {
             <h3 className='desc-header'>Clients</h3>
             <p className='description'>
               NJB Painting Inc. offers top-quality interior and exterior
-              painting and staining services, specializing in new home
-              construction and recently developed apartment buildings.
+              painting and staining services, to both residential and commercial
+              clients.
             </p>
           </Col>
         </Row>
