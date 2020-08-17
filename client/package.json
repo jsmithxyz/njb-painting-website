@@ -18,7 +18,7 @@
     "react-bootstrap": "^1.0.0",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "react-snackbar-toast": "^1.2.3",
+    "react-snackbar-toast": "^1.2.5",
     "react-scroll": "^1.7.16"
   },
   "scripts": {
