@@ -116,7 +116,7 @@ class Contact extends Component {
                 njbpainting@comcast.net
               </a>
               <br />
-              <a href='tel:5702941517'>267-410-7284</a>
+              <a href='tel:2674107284'>267-410-7284</a>
             </h3>
           </Col>
         </Row>
