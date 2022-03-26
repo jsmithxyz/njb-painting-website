@@ -107,9 +107,7 @@ class Contact extends Component {
             <h3 className='contact-info'>
               Nathan Bailey - <em>President</em>
               <br />
-              Billie Machain - <em>Sales/Operations Manager</em>
-              <br />
-              Matt Bailey - <em>Service Manager</em>
+              Matt Bailey - <em>Vice President</em>
             </h3>
             <h3 className='contact-email'>
               <a href='mailto:njbpainting@comcast.net'>
